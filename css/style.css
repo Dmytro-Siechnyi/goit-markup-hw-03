@@ -41,6 +41,11 @@
     padding: 0;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /* Header */
 .page-header {
     background-color: var(--background-color-header);
@@ -143,7 +148,7 @@ color: var(--accent-color);
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
-    
+
     color: var(--button-text-color);
     background-color: var(--background-color-footer);
     
@@ -181,6 +186,9 @@ text-align: center;
 }
 /* Особливості */
 .features-title {
+margin-top: 0;
+margin-bottom: 10px;
+
 color: var(--title-text-color);
 
 letter-spacing: 0.03em;
@@ -190,6 +198,9 @@ line-height: 1.14;
 text-transform: uppercase;
 }
 .features-text {
+margin-top: 0;
+margin-bottom: 0;
+
 color: var(--primary-text-color);
 
 letter-spacing: 0.03em;
@@ -198,6 +209,9 @@ line-height: 1.17;
 }
 /* Чим ми займаємося */
 .work-title {
+margin-top: 0;
+margin-bottom: 50px;
+
 color: var(--title-text-color);
 
 letter-spacing: 0.03em;
@@ -207,10 +221,10 @@ line-height: 1.17;
 text-align: center;
 }
 /* Наша команда */
-.team {
-background-color: var(--secondary-background-color-pag);
-}
 .team-title {
+margin-top: 0;
+margin-bottom: 50px;
+
 color: var(--title-text-color);
 
 letter-spacing: 0.03em;
@@ -220,6 +234,9 @@ line-height: 1.17;
 text-align: center;
 }
 .team-name {
+margin-top: 30px;
+margin-bottom: 10px;
+
 color: var(--title-text-color);
 
 letter-spacing: 0.03em;
@@ -228,6 +245,9 @@ font-size: 16px;
 line-height: 1.19;
 }
 .team-text {
+margin-top: 0;
+margin-bottom: 30px;
+
 color: var(--primary-text-color);
 
 letter-spacing: 0.03em;
@@ -236,10 +256,29 @@ line-height: 1.19;
 }
 /* Footer */
 .page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--background-color-footer); 
 }
 /* Логотип Footer */
-.logo-web-footer {
+.footer-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: currentColor;
+    color: var(--accent-color);
+    
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+}
+
+.logo-footer-web {
     color: var(--footer-text-color);
 
     font-family: Raleway, sans-serif;
@@ -251,6 +290,9 @@ line-height: 1.19;
 }
 /* Адреса Footer */
 .address {
+    margin-top: 20px;
+    margin-bottom: 0;
+
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -258,6 +300,9 @@ line-height: 1.19;
     line-height: 1.19;
 }
 .footer-link-address {
+    margin-top: 0;
+    margin-bottom: 9px;
+
     color: currentColor;
     color: var(--footer-text-color);
     
@@ -267,6 +312,9 @@ line-height: 1.19;
     line-height: 1.71;
 }
 .footer-link-mail {
+        margin-top: 0;
+        margin-bottom: 9px;
+
     color: currentColor;
     color: var(--accent-color-text-footer);
     
@@ -276,6 +324,9 @@ line-height: 1.19;
     line-height: 1.71;
 }
 .footer-link-tel {
+        margin-top: 0;
+        margin-bottom: 0;
+
     color: currentColor;
     color: var(--accent-color-text-footer);
     
