@@ -30,6 +30,7 @@
     --booton-activ-color: #188CE8;
     --background-color-footer: #2F303A;
 }
+
 .body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
