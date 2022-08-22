@@ -46,6 +46,11 @@
     padding-bottom: 94px;
 }
 
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* Header */
 .page-header {
     background-color: var(--background-color-header);
@@ -208,6 +213,11 @@ font-size: 14px;
 line-height: 1.17;
 }
 /* Чим ми займаємося */
+.work {
+margin-top: 0;
+margin-bottom: 94px;
+}
+
 .work-title {
 margin-top: 0;
 margin-bottom: 50px;
@@ -312,8 +322,8 @@ line-height: 1.19;
     line-height: 1.71;
 }
 .footer-link-mail {
-        margin-top: 0;
-        margin-bottom: 9px;
+    margin-top: 0;
+    margin-bottom: 9px;
 
     color: currentColor;
     color: var(--accent-color-text-footer);
@@ -350,6 +360,9 @@ line-height: 1.19;
 /* ---------ПОРТФОЛІО--------- */
 /* Кнопки */
 .filter-button {
+margin-top: 0;
+margin-bottom: 50px;
+
 display: inline-block;
 padding: 6px 22px;
 min-width: 73px;
@@ -375,6 +388,9 @@ text-align: center;
 }
 /* Проекти */
 .projects-link {
+margin-top: 0;
+margin-bottom: 30;
+
 color: currentColor;
 text-decoration: none;
 }
