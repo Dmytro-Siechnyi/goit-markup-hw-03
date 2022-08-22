@@ -213,11 +213,6 @@ font-size: 14px;
 line-height: 1.17;
 }
 /* Чим ми займаємося */
-.work {
-margin-top: 0;
-margin-bottom: 94px;
-}
-
 .work-title {
 margin-top: 0;
 margin-bottom: 50px;
@@ -230,7 +225,16 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 }
+
+.work-item {
+margin-top: 0;
+margin-bottom: 0;
+}
+
 /* Наша команда */
+.fon {
+    background-color: var(--secondary-background-color-pag);
+}
 .team-title {
 margin-top: 0;
 margin-bottom: 50px;
@@ -243,6 +247,13 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 }
+
+.team-item {
+padding-top: 0;
+padding-bottom: 0;
+background-color: var(--background-color-header);
+}
+
 .team-name {
 margin-top: 30px;
 margin-bottom: 10px;
@@ -255,8 +266,9 @@ font-size: 16px;
 line-height: 1.19;
 }
 .team-text {
+padding-bottom: 30px;
 margin-top: 0;
-margin-bottom: 30px;
+margin-bottom: 0;
 
 color: var(--primary-text-color);
 
