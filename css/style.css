@@ -172,7 +172,6 @@ color: var(--accent-color);
     text-align: center;
 }
 .hero-title {
-    margin-top: 0;
     margin-bottom: 30px;
 
     color: var(--button-text-color);
@@ -212,7 +211,6 @@ text-align: center;
 }
 /* Особливості */
 .features-title {
-margin-top: 0;
 margin-bottom: 10px;
 
 color: var(--title-text-color);
@@ -224,9 +222,6 @@ line-height: 1.14;
 text-transform: uppercase;
 }
 .features-text {
-margin-top: 0;
-margin-bottom: 0;
-
 color: var(--primary-text-color);
 
 letter-spacing: 0.03em;
@@ -235,7 +230,6 @@ line-height: 1.17;
 }
 /* Чим ми займаємося */
 .work-title {
-margin-top: 0;
 margin-bottom: 50px;
 
 color: var(--title-text-color);
@@ -249,7 +243,7 @@ text-align: center;
 
 .work-item {
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 94px;
 }
 
 /* Наша команда */
@@ -257,7 +251,6 @@ margin-bottom: 0;
     background-color: var(--secondary-background-color-pag);
 }
 .team-title {
-margin-top: 0;
 margin-bottom: 50px;
 
 color: var(--title-text-color);
@@ -268,6 +261,9 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 }
+.team {
+margin: 0;
+}
 
 .team-item {
 padding-top: 0;
@@ -276,7 +272,6 @@ background-color: var(--background-color-header);
 }
 
 .team-name {
-margin-top: 30px;
 margin-bottom: 10px;
 
 color: var(--title-text-color);
@@ -288,8 +283,6 @@ line-height: 1.19;
 }
 .team-text {
 padding-bottom: 30px;
-margin-top: 0;
-margin-bottom: 0;
 
 color: var(--primary-text-color);
 
@@ -367,8 +360,8 @@ line-height: 1.19;
     line-height: 1.71;
 }
 .footer-link-tel {
-        margin-top: 0;
-        margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 
     color: currentColor;
     color: var(--accent-color-text-footer);
@@ -429,7 +422,17 @@ margin-bottom: 30;
 color: currentColor;
 text-decoration: none;
 }
+
+.projects-name {
+border-top: 1px solid transparent;
+border-right: 1px solid var(--color-border-projects);
+border-bottom: 1px solid var(--color-border-projects);
+border-left: 1px solid var(--color-border-projects);
+}
+
 .projects-title {
+margin-top: 20px;
+margin-bottom: 4px;
 color: var(--title-text-color);
 
 letter-spacing: 0.06em;
@@ -438,17 +441,12 @@ font-size: 18px;
 line-height: 2.0;
 }
 .projects-text {
+margin-bottom: 20px;
+
 color: var(--primary-text-color);
 
 letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.88;
 }
-.projects-name {
-    margin-top: 0;
-    margin-bottom: 30px;
-    border-top: 1px solid transparent;
-    border-right: 1px solid var(--color-border-projects);
-    border-bottom: 1px solid var(--color-border-projects);
-    border-left: 1px solid var(--color-border-projects);
-}
+\
