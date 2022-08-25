@@ -259,6 +259,7 @@ text-align: center;
 .features {
 display: flex;
 gap: 30px;
+flex-basis: 270px;
 }
 
 .features-title {
