@@ -89,8 +89,6 @@ align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-
-    outline: 1px solid red;
 }
 
 /* Логотип header*/
@@ -173,19 +171,19 @@ align-items: center;
 }
 
 .auth-link-mail {
-    display: block;
-    margin-right: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+display: block;
+margin-right: 50px;
+padding-top: 32px;
+padding-bottom: 32px;
 
-    color: currentColor;
-    color: var(--primary-text-color);
+color: currentColor;
+color: var(--primary-text-color);
 
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 .auth-link-mail:hover,
 .auth-link-mail:focus {
@@ -214,13 +212,14 @@ color: var(--accent-color);
 
 /* Блок герой */
 .hero {
+    background-color: var(--background-color-footer);
     text-align: center;
 }
 .hero-title {
+    padding-top: 200px;
     margin-bottom: 30px;
 
     color: var(--button-text-color);
-    background-color: var(--background-color-footer);
     
     letter-spacing: 0.06em;
     font-weight: 900;
@@ -230,6 +229,8 @@ color: var(--accent-color);
     text-transform: uppercase;
 }
 .hero-button {
+margin-bottom: 200px;
+
 display: inline-block;
 padding: 10px 32px;
 min-width: 216px;
