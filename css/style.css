@@ -256,6 +256,11 @@ text-align: center;
     
 }
 /* Особливості */
+.features {
+display: flex;
+gap: 30px;
+}
+
 .features-title {
 margin-bottom: 10px;
 
@@ -287,15 +292,21 @@ line-height: 1.17;
 text-align: center;
 }
 
-.work-item {
-margin-top: 0;
-margin-bottom: 0;
+.work {
+display: flex;
+gap: 30px;
 }
 
 /* Наша команда */
 .fon {
     background-color: var(--secondary-background-color-pag);
 }
+
+.team {
+display: flex;
+gap: 30px;
+}
+
 .team-title {
 margin-bottom: 50px;
 
@@ -327,6 +338,7 @@ letter-spacing: 0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
+text-align: center;
 }
 .team-text {
 color: var(--primary-text-color);
@@ -334,6 +346,7 @@ color: var(--primary-text-color);
 letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.19;
+text-align: center;
 }
 /* Footer */
 .page-footer {
