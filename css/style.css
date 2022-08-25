@@ -424,8 +424,6 @@ margin-left: 0;
 }
 
 .projects-name {
-width: 370px;
-
 border-top: 1px solid transparent;
 border-right: 1px solid var(--color-border-projects);
 border-bottom: 1px solid var(--color-border-projects);
