@@ -40,12 +40,12 @@
   <body class="body">
     <!-- Header -->
     <header class="page-header">
-      <div class="container">
+      <div class="container header-container">
         <a href="./index.html" class="logo"
           >Web<span class="logo-web">Studio</span></a
         >
         <!-- Site nav -->
-        <nav>
+        <nav class="header-nav">
           <ul class="site-nav list">
             <li class="link">
               <a href="./index.html" class="link-current">Студія</a>
@@ -75,11 +75,13 @@
     <main class="page-main">
       <!--Блок герой-->
       <section class="hero">
-        <h1 class="hero-title">
-          Ефективні рішення для <br />
-          вашого бізнесу
-        </h1>
-        <button type="button" class="hero-button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="hero-title">
+            Ефективні рішення для <br />
+            вашого бізнесу
+          </h1>
+          <button type="button" class="hero-button">Замовити послугу</button>
+        </div>
       </section>
       <!-- Особливості -->
       <section class="section">
@@ -121,26 +123,31 @@
         <div class="container">
           <h2 class="work-title">Чим ми займаємося</h2>
           <ul class="work list">
-            <li class="work-item">
+            <li>
               <img
+                class="work-img"
                 src="./images/img.jpg"
                 alt="Робота з десктопними додатками"
                 width="370"
                 height="294"
               />
             </li>
-            <li class="work-item">
+            <li>
               <img
+                class="work-img"
                 src="./images/img1.jpg"
-                alt="Робота з мобільними додатками"
+                alt="Робота з
+              мобільними додатками"
                 width="370"
                 height="294"
               />
             </li>
-            <li class="work-item">
+            <li>
               <img
+                class="work-img"
                 src="./images/img2.jpg"
-                alt="Робота з графікою"
+                alt="Робота з
+              графікою"
                 width="370"
                 height="294"
               />

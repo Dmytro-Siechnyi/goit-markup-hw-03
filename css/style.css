@@ -71,23 +71,34 @@ img {
 
 /* Header */
 .page-header {
-    background-color: var(--background-color-header);
+background-color: var(--background-color-header);
 
-    border-bottom: 1px solid var(--color-border-projects);
+border-bottom: 1px solid var(--color-border-projects);
     
-    letter-spacing: 0.02em;
+letter-spacing: 0.02em;
 }
 /* Центрування */
+.header-container {
+display: flex;
+align-items: center;
+}
+
 .container {
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
+
+    outline: 1px solid red;
 }
 
 /* Логотип header*/
 .logo {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     color: currentColor;
     color: var(--accent-color);
     
@@ -111,7 +122,22 @@ img {
 }
 
 /* Site nav */
+.header-nav {
+display: flex;
+margin-right: auto;
+align-items: center;
+}
+
+.site-nav {
+    display: flex;
+    gap: 50px;
+}
+
 .nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: currentColor;
     color: var(--title-text-color);
 
@@ -126,6 +152,10 @@ img {
 color: var(--accent-color);
 }
 .link-current {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: currentColor;
     color: var(--accent-color);
     
@@ -137,7 +167,17 @@ color: var(--accent-color);
 }
 
 /* Авторизація */
+.auth-nav {
+display: flex;
+align-items: center;
+}
+
 .auth-link-mail {
+    display: block;
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: currentColor;
     color: var(--primary-text-color);
 
@@ -152,6 +192,10 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 .auth-link-tel {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: currentColor;
     color: var(--primary-text-color);
     
@@ -265,7 +309,7 @@ text-align: center;
 
 .team-item {
 padding-top: 0;
-padding-bottom: 0;
+padding-bottom: 30px;
 background-color: var(--background-color-header);
 
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -284,8 +328,6 @@ font-size: 16px;
 line-height: 1.19;
 }
 .team-text {
-padding-bottom: 30px;
-
 color: var(--primary-text-color);
 
 letter-spacing: 0.03em;
@@ -301,9 +343,6 @@ line-height: 1.19;
 }
 /* Логотип Footer */
 .footer-logo {
-    margin-top: 0;
-    margin-bottom: 0;
-
     color: currentColor;
     color: var(--accent-color);
     
@@ -328,7 +367,6 @@ line-height: 1.19;
 /* Адреса Footer */
 .address {
     margin-top: 20px;
-    margin-bottom: 0;
 
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
@@ -336,7 +374,9 @@ line-height: 1.19;
     font-size: 14px;
     line-height: 1.19;
 }
+
 .footer-link-address {
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 9px;
 
@@ -349,6 +389,7 @@ line-height: 1.19;
     line-height: 1.71;
 }
 .footer-link-mail {
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 9px;
 
@@ -361,6 +402,7 @@ line-height: 1.19;
     line-height: 1.71;
 }
 .footer-link-tel {
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 0;
 
@@ -386,10 +428,14 @@ line-height: 1.19;
 }
 /* ---------ПОРТФОЛІО--------- */
 /* Кнопки */
+.filter {
+margin-top: 0;
+margin-bottom: 34px;
+}
+
 .filter-button {
 margin-top: 0;
-margin-right: 8px;
-margin-bottom: 50px;
+margin-bottom: 16px;
 margin-left: 0;
 
 display: inline-block;
@@ -408,19 +454,17 @@ font-size: 16px;
 line-height: 1.63;
 text-align: center;
 }
+
 .filter-button:hover,
 .filter-button:focus {
-    color: var(--button-text-color);
-    background-color: var(--accent-color);
-    cursor: pointer;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+color: var(--button-text-color);
+background-color: var(--accent-color);
+cursor: pointer;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* Проекти */
-.list-projects {
-margin-top: 0;
-margin-right: 30px;
+.list-projects:nth-child(-n + 6) {
 margin-bottom: 30px;
-margin-left: 0;
 }
 
 .projects-name {
