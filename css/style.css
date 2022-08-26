@@ -257,7 +257,10 @@ text-align: center;
 .features {
 display: flex;
 gap: 30px;
-flex-basis: 270px;
+}
+
+.features-list {
+width: 270px;
 }
 
 .features-title {
@@ -319,6 +322,8 @@ text-align: center;
 }
 
 .team-item {
+width: 270px;
+
 padding-top: 0;
 padding-bottom: 30px;
 background-color: var(--background-color-header);
@@ -487,6 +492,10 @@ flex-wrap: wrap;
 gap: 30px;
 }
 
+.list-projects {
+    width: 370px;
+}
+
 .projects-name {
 border-top: 1px solid transparent;
 border-right: 1px solid var(--color-border-projects);
@@ -513,4 +522,3 @@ letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.88;
 }
-\
