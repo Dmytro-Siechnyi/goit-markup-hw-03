@@ -214,7 +214,6 @@ color: var(--accent-color);
     text-align: center;
 }
 .hero-title {
-    padding-top: 200px;
     margin-bottom: 30px;
 
     color: var(--button-text-color);
@@ -227,8 +226,6 @@ color: var(--accent-color);
     text-transform: uppercase;
 }
 .hero-button {
-margin-bottom: 200px;
-
 display: inline-block;
 padding: 10px 32px;
 min-width: 216px;
@@ -260,7 +257,7 @@ gap: 30px;
 }
 
 .features-list {
-width: 270px;
+width: calc((100% - 3 * 30px) / 4);
 }
 
 .features-title {
@@ -322,7 +319,7 @@ text-align: center;
 }
 
 .team-item {
-width: 270px;
+width: calc((100% - 3 * 30px) / 4);
 
 padding-top: 0;
 padding-bottom: 30px;
@@ -493,8 +490,13 @@ gap: 30px;
 }
 
 .list-projects {
-    width: 370px;
+width: calc((100% - 2 * 30px) / 3);
 }
+
+.list-projects:nth-child(3n) {
+    margin-right: 0;
+}
+
 
 .projects-name {
 border-top: 1px solid transparent;
